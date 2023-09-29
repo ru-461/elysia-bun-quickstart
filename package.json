@@ -1,10 +1,11 @@
 {
   "name": "app",
   "version": "1.0.50",
+  "module": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts",
-    "format": "prettier --write \"./src/*.ts\""
+    "format": "prettier --write \"./src/*.ts\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "elysia": "latest",
@@ -14,6 +15,5 @@
     "@types/figlet": "^1.5.6",
     "bun-types": "latest",
     "prettier": "^3.0.3"
-  },
-  "module": "src/index.js"
+  }
 }
